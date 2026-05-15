@@ -1,0 +1,36 @@
+# .NET
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / JetBrains
+.vs/
+.idea/
+*.sln.iml
+.vsconfig
+
+# C++
+x64/
+Debug/
+Release/
+ipch/
+*.aps
+*.intermediate.manifest
+*.pdb
+*.iobj
+*.ipdb
+*.log
+
+# Project specific
+*.zip
+*.pck
+dse_bootstrap.log
+dse_loader.log
+cli_debug.log
+load_order.txt
+
+# OS
+.DS_Store
+Thumbs.db

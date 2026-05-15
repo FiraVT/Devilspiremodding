@@ -1,0 +1,16 @@
+﻿[
+    {
+        "id": "bonus_sword",
+        "name": "Emerald Blade",
+        "description": "A sharp sword with an emerald hilt.",
+        "category": 1,
+        "type": 0,
+        "subtype": 0,
+        "weight": 4.0,
+        "price": 250,
+        "model": "Weapons/sword_longsword",
+        "durability": 150.0,
+        "max_durability": 150.0,
+        "attack": 15
+    }
+]

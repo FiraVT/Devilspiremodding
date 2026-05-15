@@ -1,0 +1,14 @@
+﻿{
+    "id": "template_spell",
+    "name": "Template Spell",
+    "level": 1,
+    "hit_effects": [
+        { "type": 0, "intensity": 10.0, "duration": 0.0 }
+    ],
+    "self_effects": [],
+    "projectile": 0,
+    "area": 1.0,
+    "mana_cost": 10,
+    "cast_time": 1.0,
+    "channeled": false
+}

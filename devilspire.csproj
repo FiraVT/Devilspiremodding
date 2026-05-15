@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Remove="extracteddevilspire\**" />
+        <EmbeddedResource Remove="extracteddevilspire\**" />
+        <None Remove="extracteddevilspire\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="test_extraction\**" />
+      <EmbeddedResource Remove="test_extraction\**" />
+      <None Remove="test_extraction\**" />
+      <Compile Remove="test_utility\**" />
+      <EmbeddedResource Remove="test_utility\**" />
+      <None Remove="test_utility\**" />
+      <Compile Remove="release\**" />
+      <EmbeddedResource Remove="release\**" />
+      <None Remove="release\**" />
+      <Compile Remove="skse64-master\**" />
+      <EmbeddedResource Remove="skse64-master\**" />
+      <None Remove="skse64-master\**" />
+      <Compile Remove="Ideas\**" />
+      <EmbeddedResource Remove="Ideas\**" />
+      <None Remove="Ideas\**" />
+      <Compile Remove="tests\**" />
+      <Compile Remove="*Test.cs" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Update="DSEBootstrap.gd">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="dse_core.gd">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="patches\**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="mods\**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="templates\**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Content Include="DSELoader\DSELoader.vcxproj" />
+    </ItemGroup>
+
+</Project>

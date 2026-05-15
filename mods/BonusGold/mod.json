@@ -1,0 +1,7 @@
+﻿{
+    "id": "bonus_gold_mod",
+    "name": "Bonus Gold Mod",
+    "version": "1.0",
+    "author": "DSE",
+    "description": "Gives the player bonus XP when an enemy dies."
+}
